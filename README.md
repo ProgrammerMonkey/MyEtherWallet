@@ -1,5 +1,7 @@
 # myetherwallet
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/MyEtherWallet/MyEtherWallet.svg)](https://greenkeeper.io/)
+
 > A Vue.js project
 
 ## Build Setup
