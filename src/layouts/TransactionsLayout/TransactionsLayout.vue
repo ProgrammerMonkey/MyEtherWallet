@@ -272,6 +272,10 @@
 
 <script>
 import TransactionsSideMenu from './components/TransactionsSideMenu'
+import TransactionsAddress from './components/TransactionsAddress'
+import TransactionsBalance from './components/TransactionsBalance'
+import TransactionsNetwork from './components/TransactionsNetwork'
+import TransactionsTokens from './components/TransactionsTokens'
 
 import validate from 'validate.js'
 import web3 from 'web3'
