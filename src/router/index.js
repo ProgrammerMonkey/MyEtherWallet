@@ -7,6 +7,8 @@ import PrivacyPolicyLayout from '@/layouts/PrivacyPolicyLayout'
 import TermsOfConditionsLayout from '@/layouts/TermsOfConditionsLayout'
 import AccessWalletLayout from '@/layouts/AccessWalletLayout'
 import InterfaceLayout from '@/layouts/InterfaceLayout'
+import TransactionsLayout from '@/layouts/TransactionsLayout'
+
 import {router as routerConfig} from '@/configs/build'
 
 Vue.use(Router)
@@ -48,6 +50,11 @@ export default new Router({
       path: '/interface',
       name: 'InterfaceLayout',
       component: InterfaceLayout
+    },
+    {
+      path: '/tx',
+      name: 'TransactionsLayout',
+      component: TransactionsLayout
     }
   ],
   scrollBehavior (to, from, savedPosition) {

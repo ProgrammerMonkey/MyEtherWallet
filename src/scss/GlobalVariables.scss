@@ -53,6 +53,7 @@ $dark-yellow: #dadd98;
 
 $red-1: #f00;
 $red-2: #ff2f49;
+$red-3: #ff0000;
 
 $grey-1: #adadad;
 $grey-2: #999;
@@ -125,6 +126,7 @@ $transaction-block-balance: $light-blue-1;
 $transaction-block-network: $light-blue-4;
 $transaction-block-token-search: $dark-grey-2;
 
+$notification-dot-background-color: $red-3;
 $button-background-color-1: $dark-grey-4;
 $small-tooltip-shadow: $opaque-black-5;
 
@@ -177,6 +179,7 @@ $text-color-red: $red-1;
 $text-color-news-content: $text-color-3;
 $text--tooltip-color: $dark-grey-3;
 $text--link-color: $text-color-2;
+$text--link-color-hover: $text-black;
 $text--mnemonic-phrase-key-color: $text-color-6;
 $text--mnemonic-phrase-index-color: $text-color-3;
 $text--footer-link-color: $light-blue-2;
